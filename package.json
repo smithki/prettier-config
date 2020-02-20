@@ -1,24 +1,14 @@
 {
   "name": "@ikscodes/prettier-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated Prettier config.",
-  "author": "Ian K Smith <smithki707@gmail.com>",
+  "author": "Ian K Smith <hello@iks.codes>",
   "license": "MIT",
   "main": "index.js",
-  "files": [
-    "index.js",
-    "prettierrc.js",
-    "rules"
-  ],
-  "repository": "https://github.com/smithki/eslint-config",
-  "bugs": "https://github.com/smithki/eslint-config/issues",
-  "keywords": [
-    "eslint",
-    "airbnb",
-    "prettier",
-    "typescript",
-    "react"
-  ],
+  "files": ["index.js"],
+  "repository": "https://github.com/smithki/prettier-config",
+  "bugs": "https://github.com/smithki/prettier-config/issues",
+  "keywords": ["prettier"],
   "scripts": {
     "lint": "eslint --fix ./**/*.js"
   },
@@ -28,28 +18,11 @@
     "eslint-config-prettier": "^6.9.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.15.0",
-    "eslint": "6.8.0",
-    "eslint-import-resolver-typescript": "^2.0.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.6.1",
-    "eslint-plugin-react-hooks": "^1.7.0",
     "husky": "^4.0.10",
     "lint-staged": "^9.5.0",
-    "prettier": "^1.10.2",
-    "typescript": "^3.7.4"
+    "prettier": "^1.10.2"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.15.0",
-    "eslint": "^6.7.2",
-    "eslint-import-resolver-typescript": "^2.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.15.1",
-    "eslint-plugin-react-hooks": "^1.7.0",
     "prettier": "^1.19.1"
   },
   "husky": {
