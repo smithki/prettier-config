@@ -1,6 +1,6 @@
 {
   "name": "@ikscodes/prettier-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An opinionated Prettier config.",
   "author": "Ian K Smith <hello@iks.codes>",
   "license": "MIT",
@@ -12,18 +12,13 @@
   "scripts": {
     "lint": "eslint --fix ./**/*.js"
   },
-  "dependencies": {
-    "@typescript-eslint/parser": "^2.15.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.9.0"
-  },
   "devDependencies": {
     "husky": "^4.0.10",
     "lint-staged": "^9.5.0",
-    "prettier": "^1.10.2"
+    "prettier": "^2.0.5"
   },
   "peerDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.5"
   },
   "husky": {
     "hooks": {
