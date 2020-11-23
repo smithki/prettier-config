@@ -1,14 +1,18 @@
 {
   "name": "@ikscodes/prettier-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An opinionated Prettier config.",
   "author": "Ian K Smith <hello@iks.codes>",
   "license": "MIT",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "repository": "https://github.com/smithki/prettier-config",
   "bugs": "https://github.com/smithki/prettier-config/issues",
-  "keywords": ["prettier"],
+  "keywords": [
+    "prettier"
+  ],
   "scripts": {
     "lint": "eslint --fix ./**/*.js"
   },
