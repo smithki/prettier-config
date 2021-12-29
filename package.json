@@ -13,23 +13,10 @@
   "keywords": [
     "prettier"
   ],
-  "scripts": {
-    "lint": "eslint --fix ./**/*.js"
-  },
   "devDependencies": {
-    "husky": "^4.3.0",
-    "lint-staged": "^9.5.0",
     "prettier": "^2.2.0"
   },
   "peerDependencies": {
     "prettier": "^2.2.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": "eslint --fix"
   }
 }
