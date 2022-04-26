@@ -1,6 +1,6 @@
 {
   "name": "@ikscodes/prettier-config",
-  "version": "2.0.2",
+  "version": "2.2.0",
   "description": "An opinionated Prettier config.",
   "author": "Ian K Smith <hello@iks.codes>",
   "license": "MIT",
@@ -14,9 +14,9 @@
     "prettier"
   ],
   "devDependencies": {
-    "prettier": "^2.2.0"
+    "prettier": "^2.6.2"
   },
   "peerDependencies": {
-    "prettier": "^2.2.0"
+    "prettier": "^2.6.2"
   }
 }
