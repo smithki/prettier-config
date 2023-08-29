@@ -78,6 +78,8 @@ module.exports = {
 x.x.x
 ```
 
+It's recommended that you pin the version of `@ikscodes/prettier-config` with a [semver tilde (`~`)](https://devhints.io/semver) so as to avoid unintended breaking changes when updating your NPM depedencies.
+
 ## ⚖️ License
 
 [MIT](./LICENSE)
