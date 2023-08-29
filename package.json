@@ -1,6 +1,6 @@
 {
   "name": "@ikscodes/prettier-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "An opinionated Prettier config.",
   "author": "Ian K Smith <hello@iks.codes>",
   "license": "MIT",
